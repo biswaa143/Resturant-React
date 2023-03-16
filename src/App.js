@@ -1,32 +1,38 @@
 import React from "react";
+
 import Form from "./Components/Form/Form";
+// const sections = [
+//   {
+//     orderid: "orderid",
+//     price: "price",
+//     dish: "dish",
+//   },
+// ];
+
+// const sections = [
+//   { orderid: "1", price: "1000", dish: "Mutton" },
+//   { orderid: "2", price: "500", dish: "Chicken" },
+//   { orderid: "3", price: "200", dish: "Veg" },
+// ];
 
 function App() {
+  // sections.map(({ orderid, price, dish }) => {
+  //   return (
+  //     <div>
+  //       <p>
+  //         {orderid}-{price}-{dish}
+  //       </p>
+  //     </div>
+  //   );
+  // });
   return (
-    <React.Fragment>
+    <div>
       <Form />
-    </React.Fragment>
+    </div>
   );
 }
 
 export default App;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // import logo from './logo.svg';
 // import './App.css';
